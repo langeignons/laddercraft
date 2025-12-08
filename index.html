@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Serveur CodeBrain - Accueil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="page-accueil">
+<header class="site-header">
+    <div class="header-inner">
+        <div class="logo-block">
+            <div class="logo-mark">CB</div>
+            <div class="logo-text">
+                <span class="server-name">Serveur CodeBrain</span>
+                <span class="server-ip">IP : play.codebrain.gg</span>
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <a href="index.html" class="nav-link active">Accueil</a>
+            <a href="classement.html" class="nav-link">Classement</a>
+            <a href="grade.html" class="nav-link">Grades</a>
+            <a href="aide.html" class="nav-link">Aide</a>
+        </nav>
+
+        <a href="#rejoindre" class="btn btn-small btn-accent">Rejoindre le serveur</a>
+    </div>
+</header>
+
+<main>
+    <!-- HERO -->
+    <section class="hero fade-in-up">
+        <div class="hero-content">
+            <h1>Bienvenue sur le <span>Serveur CodeBrain</span></h1>
+            <p class="hero-subtitle">
+                Un serveur Minecraft compétitif & fun, pensé pour les tournois, les events et la communauté.
+            </p>
+
+            <div class="ip-card">
+                <span class="label">Adresse IP</span>
+                <span class="value">play.codebrain.gg</span>
+                <span class="hint">Version 1.20+ • Europe • Faible latence</span>
+            </div>
+
+            <div class="socials">
+                <a href="#" class="social-link" aria-label="YouTube">
+                    <span class="social-icon">▶</span> <span>YouTube</span>
+                </a>
+                <a href="#" class="social-link" aria-label="TikTok">
+                    <span class="social-icon">♬</span> <span>TikTok</span>
+                </a>
+                <a href="#" class="social-link" aria-label="Twitch">
+                    <span class="social-icon">⌾</span> <span>Twitch</span>
+                </a>
+                <a href="#" class="social-link" aria-label="Discord">
+                    <span class="social-icon">💬</span> <span>Discord</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUI SOMMES-NOUS -->
+    <section class="section" id="about">
+        <div class="section-header">
+            <h2>Qui sommes-nous ?</h2>
+            <p>
+                Le serveur CodeBrain est un projet orienté <strong>tournois</strong>, <strong>events</strong> et
+                <strong>expériences communautaires</strong>. Notre but : proposer une expérience fluide, compétitive,
+                mais accessible, avec une ambiance légèrement esport, claire et lisible.
+            </p>
+        </div>
+    </section>
+
+    <!-- CODEBRAIN & GUITAPE -->
+    <section class="section" id="team">
+        <div class="section-header">
+            <h2>Qui sont Codebrain et Guitape ?</h2>
+        </div>
+
+        <div class="team-grid">
+            <article class="profile-card fade-in-up">
+                <div class="avatar-circle">
+                    <!-- Remplace par une vraie image si tu veux -->
+                    <span>CB</span>
+                </div>
+                <h3>Codebrain</h3>
+                <p>
+                    Créateur du projet, streamer et passionné de Minecraft compétitif. Il s’occupe de
+                    l’organisation des tournois, de la vision globale du serveur et de l’ambiance générale.
+                </p>
+            </article>
+
+            <article class="profile-card fade-in-up delay-1">
+                <div class="avatar-circle">
+                    <!-- Remplace par une vraie image si tu veux -->
+                    <span>GT</span>
+                </div>
+                <h3>Guitape</h3>
+                <p>
+                    Co-créateur et cerveau technique. Guitape gère la partie plugins, systèmes de jeu et
+                    optimisation pour garantir une expérience fluide, stable et agréable pour les joueurs.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <!-- REJOINDRE -->
+    <section class="section section-cta" id="rejoindre">
+        <div class="section-header">
+            <h2>Prêt à nous rejoindre ?</h2>
+            <p>Ajoute l’IP dans ta liste de serveurs, rejoins le Discord pour les annonces et lance-toi !</p>
+            <a href="#" class="btn btn-accent">Rejoindre le Discord</a>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>© 2025 Serveur CodeBrain • Non officiel Mojang • Design esport & chill</p>
+</footer>
+
+<button id="toggle-header-btn" class="toggle-header-btn">
+    <span>Masquer le menu</span>
+</button>
+</body>
+</html>

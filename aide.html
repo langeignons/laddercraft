@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Serveur CodeBrain - Aide & FAQ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="page-aide">
+<header class="site-header">
+    <div class="header-inner">
+        <div class="logo-block">
+            <div class="logo-mark">CB</div>
+            <div class="logo-text">
+                <span class="server-name">Serveur CodeBrain</span>
+                <span class="server-ip">IP : play.codebrain.gg</span>
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <a href="index.html" class="nav-link">Accueil</a>
+            <a href="classement.html" class="nav-link">Classement</a>
+            <a href="grade.html" class="nav-link">Grades</a>
+            <a href="aide.html" class="nav-link active">Aide</a>
+        </nav>
+
+        <a href="#support" class="btn btn-small btn-accent">Support</a>
+    </div>
+</header>
+
+<main>
+    <section class="hero hero-small fade-in-up">
+        <div class="hero-content">
+            <h1>Aide & FAQ</h1>
+            <p class="hero-subtitle">
+                Une question ? Un problème pour rejoindre le serveur ? On vous guide.
+            </p>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section">
+        <div class="section-header">
+            <h2>FAQ</h2>
+        </div>
+
+        <div class="faq-list">
+            <details class="faq-item" open>
+                <summary>Quelle est l’adresse IP du serveur ?</summary>
+                <p>L’adresse IP est <strong>play.codebrain.gg</strong>. Assurez-vous d’être en version 1.20+.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Le serveur est-il pay-to-win ?</summary>
+                <p>
+                    Non. Les grades proposent surtout des avantages cosmétiques, de confort et de file d’attente,
+                    mais ne donnent pas de gros avantages PvP injustes.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>Comment sont organisés les tournois ?</summary>
+                <p>
+                    Les tournois sont annoncés sur notre Discord : inscriptions, règles, dates et horaires
+                    sont détaillés là-bas, avec un système de casting sur Twitch ou YouTube.
+                </p>
+            </details>
+        </div>
+    </section>
+
+    <!-- COMMENT REJOINDRE -->
+    <section class="section">
+        <div class="section-header">
+            <h2>Comment rejoindre le serveur ?</h2>
+        </div>
+
+        <ol class="steps-list">
+            <li>Ouvrez Minecraft en version <strong>1.20+</strong>.</li>
+            <li>Allez dans <strong>Multijoueur</strong> &gt; <strong>Ajouter un serveur</strong>.</li>
+            <li>Nom du serveur : <strong>Serveur CodeBrain</strong>.</li>
+            <li>Adresse du serveur : <strong>play.codebrain.gg</strong>.</li>
+            <li>Enregistrez, puis cliquez sur <strong>Rejoindre</strong>.</li>
+        </ol>
+    </section>
+
+    <!-- PROBLÈMES COURANTS -->
+    <section class="section">
+        <div class="section-header">
+            <h2>Problèmes courants & solutions</h2>
+        </div>
+
+        <div class="problems-grid">
+            <article class="problem-card">
+                <h3>“Impossible de se connecter au serveur”</h3>
+                <p>
+                    Vérifiez d’abord votre connexion Internet, puis assurez-vous que l’adresse IP est correcte
+                    et que vous êtes sur la bonne version du jeu.
+                </p>
+            </article>
+
+            <article class="problem-card">
+                <h3>“Version incompatible”</h3>
+                <p>
+                    Le serveur est prévu pour la version <strong>1.20+</strong>. Mettez à jour votre launcher
+                    ou sélectionnez la bonne version dans votre profil.
+                </p>
+            </article>
+
+            <article class="problem-card">
+                <h3>“Lag ou gros ping”</h3>
+                <p>
+                    Fermez les téléchargements / streams en arrière-plan. Essayez aussi un redémarrage de votre box.
+                    Si le problème persiste, contactez un membre du staff.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <!-- SUPPORT -->
+    <section class="section section-cta" id="support">
+        <div class="section-header">
+            <h2>Besoin d’aide supplémentaire ?</h2>
+            <p>Notre équipe reste dispo pour vous accompagner.</p>
+        </div>
+
+        <a href="#" class="btn btn-accent">Contacter le support</a>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>Support via Discord ou email • Merci de décrire votre problème le plus précisément possible.</p>
+</footer>
+
+<button id="toggle-header-btn" class="toggle-header-btn">
+    <span>Masquer le menu</span>
+</button>
+</body>
+</html>

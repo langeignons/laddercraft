@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Serveur CodeBrain - Classement</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="page-classement">
+<header class="site-header">
+    <div class="header-inner">
+        <div class="logo-block">
+            <div class="logo-mark">CB</div>
+            <div class="logo-text">
+                <span class="server-name">Serveur CodeBrain</span>
+                <span class="server-ip">IP : play.codebrain.gg</span>
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <a href="index.html" class="nav-link">Accueil</a>
+            <a href="classement.html" class="nav-link active">Classement</a>
+            <a href="grade.html" class="nav-link">Grades</a>
+            <a href="aide.html" class="nav-link">Aide</a>
+        </nav>
+
+        <a href="grade.html" class="btn btn-small btn-accent">Voir les grades</a>
+    </div>
+</header>
+
+<main>
+    <!-- TITRE TOURNOI -->
+    <section class="hero hero-small fade-in-up">
+        <div class="hero-content">
+            <h1 class="tournament-title">
+                CodeBrain Tournament System
+            </h1>
+            <p class="hero-subtitle">
+                Classement officiel • Dernier event mis à jour.
+            </p>
+        </div>
+    </section>
+
+    <!-- PODIUM -->
+    <section class="section">
+        <div class="section-header">
+            <h2>Podium du dernier tournoi</h2>
+        </div>
+
+        <div class="podium-wrapper fade-in-up">
+            <!-- Top 2 -->
+            <div class="podium-slot podium-2">
+                <div class="podium-rank">2</div>
+                <div class="podium-skin">
+                    <img src="assets/top2.png" alt="Skin Top 2" />
+                </div>
+                <div class="podium-name">JoueurTop2</div>
+            </div>
+
+            <!-- Top 1 -->
+            <div class="podium-slot podium-1">
+                <div class="podium-rank">1</div>
+                <div class="podium-skin">
+                    <img src="assets/top1.png" alt="Skin Top 1" />
+                </div>
+                <div class="podium-name">JoueurTop1</div>
+            </div>
+
+            <!-- Top 3 -->
+            <div class="podium-slot podium-3">
+                <div class="podium-rank">3</div>
+                <div class="podium-skin">
+                    <img src="assets/top3.png" alt="Skin Top 3" />
+                </div>
+                <div class="podium-name">JoueurTop3</div>
+            </div>
+        </div>
+
+        <!-- TOP 4 séparé -->
+        <div class="top4-wrapper fade-in-up delay-1">
+            <div class="top4-card">
+                <div class="top4-rank">4</div>
+                <div class="top4-skin">
+                    <img src="assets/top4.png" alt="Skin Top 4" />
+                </div>
+                <div class="top4-name">JoueurTop4</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HISTORIQUE -->
+    <section class="section section-history">
+        <div class="section-header">
+            <h2>Historique des tournois</h2>
+        </div>
+
+        <ul class="history-list fade-in-up">
+            <li><span class="history-label">Tournoi 1 :</span> Top 1 = <strong>PlayerOne</strong></li>
+            <li><span class="history-label">Tournoi 2 :</span> Top 1 = <strong>GamerPro</strong></li>
+            <li><span class="history-label">Tournoi 3 :</span> Top 1 = <strong>SpeedRunner</strong></li>
+            <li><span class="history-label">Tournoi 4 :</span> Top 1 = <strong>PvPGod</strong></li>
+            <li><span class="history-label">Tournoi 5 :</span> Top 1 = <strong>ClutchMaster</strong></li>
+        </ul>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>© 2025 Serveur CodeBrain • Classement non définitif, sujet à mises à jour.</p>
+</footer>
+
+<button id="toggle-header-btn" class="toggle-header-btn">
+    <span>Masquer le menu</span>
+</button>
+</body>
+</html>

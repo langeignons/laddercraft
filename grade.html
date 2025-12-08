@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Serveur CodeBrain - Grades</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="page-grade">
+<header class="site-header">
+    <div class="header-inner">
+        <div class="logo-block">
+            <div class="logo-mark">CB</div>
+            <div class="logo-text">
+                <span class="server-name">Serveur CodeBrain</span>
+                <span class="server-ip">IP : play.codebrain.gg</span>
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <a href="index.html" class="nav-link">Accueil</a>
+            <a href="classement.html" class="nav-link">Classement</a>
+            <a href="grade.html" class="nav-link active">Grades</a>
+            <a href="aide.html" class="nav-link">Aide</a>
+        </nav>
+
+        <a href="#grades" class="btn btn-small btn-accent">Voir les offres</a>
+    </div>
+</header>
+
+<main>
+    <section class="hero hero-small fade-in-up">
+        <div class="hero-content">
+            <h1>Grades & Avantages</h1>
+            <p class="hero-subtitle">
+                Soutiens le serveur et débloque des bonus sans être pay-to-win.
+            </p>
+        </div>
+    </section>
+
+    <section class="section" id="grades">
+        <div class="section-header">
+            <h2>Nos grades</h2>
+            <p>3 grades clairs, lisibles, pensés pour rester fair-play et fun.</p>
+        </div>
+
+        <div class="grades-carousel">
+            <button class="grade-nav grade-nav-prev" aria-label="Grade précédent">‹</button>
+
+            <div class="grades-wrapper">
+                <!-- Grade 1 -->
+                <article class="grade-card active" data-index="0">
+                    <h3>Explorer</h3>
+                    <p class="grade-desc">
+                        Parfait pour découvrir le serveur tout en soutenant légèrement le projet.
+                    </p>
+                    <ul class="grade-features">
+                        <li>Tag <strong>[Explorer]</strong> dans le chat</li>
+                        <li>Accès à un /kit de départ amélioré</li>
+                        <li>File d’attente prioritaire légère</li>
+                    </ul>
+                    <div class="grade-price">3,99 €</div>
+                </article>
+
+                <!-- Grade 2 -->
+                <article class="grade-card" data-index="1">
+                    <h3>Champion</h3>
+                    <p class="grade-desc">
+                        Pensé pour les joueurs réguliers qui participent souvent aux events.
+                    </p>
+                    <ul class="grade-features">
+                        <li>Tag <strong>[Champion]</strong> dans le chat</li>
+                        <li>Plusieurs /kits exclusifs</li>
+                        <li>File d’attente prioritaire renforcée</li>
+                        <li>Accès à un salon Discord privé</li>
+                    </ul>
+                    <div class="grade-price">7,99 €</div>
+                </article>
+
+                <!-- Grade 3 -->
+                <article class="grade-card" data-index="2">
+                    <h3>Légende</h3>
+                    <p class="grade-desc">
+                        Pour ceux qui veulent soutenir au maximum le projet, sans casser l’équilibre du jeu.
+                    </p>
+                    <ul class="grade-features">
+                        <li>Tag <strong>[Légende]</strong> ultra stylé</li>
+                        <li>Cosmétiques exclusifs (particules, pets, etc.)</li>
+                        <li>Accès anticipé à certains events</li>
+                        <li>Priorité maximale dans les files</li>
+                    </ul>
+                    <div class="grade-price">14,99 €</div>
+                </article>
+            </div>
+
+            <button class="grade-nav grade-nav-next" aria-label="Grade suivant">›</button>
+        </div>
+    </section>
+
+    <!-- CTA BAS DE PAGE -->
+    <section class="section section-cta section-cta-grades">
+        <div class="section-header">
+            <h2>Quel grade est fait pour vous ?</h2>
+            <p>Choisissez sereinement : aucun grade n’est obligatoire pour profiter du serveur.</p>
+        </div>
+
+        <div class="cta-buttons">
+            <a href="#" class="btn btn-accent">Acheter</a>
+            <a href="#grades" class="btn btn-outline">Lequel vous convient ?</a>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>Les grades ne donnent pas d’avantage injuste en PvP. Merci pour votre soutien ♥</p>
+</footer>
+
+<button id="toggle-header-btn" class="toggle-header-btn">
+    <span>Masquer le menu</span>
+</button>
+</body>
+</html>
