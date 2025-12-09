@@ -2,19 +2,19 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Serveur CodeBrain - Classement</title>
+    <title>Serveur CodeBrain - Accueil</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
-<body class="page-classement">
+<body class="page-classements">
 <header class="site-header">
     <div class="header-inner">
         <div class="logo-block">
-            <div class="logo-mark">CB</div>
+            <div class="logo-mark">LC</div>
             <div class="logo-text">
-                <span class="server-name">Serveur CodeBrain</span>
-                <span class="server-ip">IP : play.codebrain.gg</span>
+                <span class="server-name">Serveur laddercraft</span>
+                <span class="server-ip">IP : laddercraft.mine.fun</span>
             </div>
         </div>
 
@@ -25,11 +25,13 @@
             <a href="aide.html" class="nav-link">Aide</a>
         </nav>
 
-        <a href="grade.html" class="btn btn-small btn-accent">Voir les grades</a>
+        <a href="#rejoindre" class="btn btn-small btn-accent">Rejoindre le LadderCraft</a>
     </div>
+
 </header>
 
 <main>
+
     <!-- TITRE TOURNOI -->
     <section class="hero hero-small fade-in-up">
         <div class="hero-content">
@@ -45,7 +47,7 @@
     <!-- PODIUM -->
     <section class="section">
         <div class="section-header">
-            <h2>Podium du dernier tournoi</h2>
+            <h2>Podium du Codebrain tournament 2025</h2>
         </div>
 
         <div class="podium-wrapper fade-in-up">
@@ -55,7 +57,7 @@
                 <div class="podium-skin">
                     <img src="assets/top2.png" alt="Skin Top 2" />
                 </div>
-                <div class="podium-name">JoueurTop2</div>
+                <div class="podium-name">Artaror</div>
             </div>
 
             <!-- Top 1 -->
@@ -64,7 +66,7 @@
                 <div class="podium-skin">
                     <img src="assets/top1.png" alt="Skin Top 1" />
                 </div>
-                <div class="podium-name">JoueurTop1</div>
+                <div class="podium-name">wx974</div>
             </div>
 
             <!-- Top 3 -->
@@ -73,7 +75,7 @@
                 <div class="podium-skin">
                     <img src="assets/top3.png" alt="Skin Top 3" />
                 </div>
-                <div class="podium-name">JoueurTop3</div>
+                <div class="podium-name">Elio</div>
             </div>
         </div>
 
@@ -84,7 +86,7 @@
                 <div class="top4-skin">
                     <img src="assets/top4.png" alt="Skin Top 4" />
                 </div>
-                <div class="top4-name">JoueurTop4</div>
+                <div class="top4-name">Joss974</div>
             </div>
         </div>
     </section>
@@ -96,21 +98,17 @@
         </div>
 
         <ul class="history-list fade-in-up">
-            <li><span class="history-label">Tournoi 1 :</span> Top 1 = <strong>PlayerOne</strong></li>
-            <li><span class="history-label">Tournoi 2 :</span> Top 1 = <strong>GamerPro</strong></li>
-            <li><span class="history-label">Tournoi 3 :</span> Top 1 = <strong>SpeedRunner</strong></li>
-            <li><span class="history-label">Tournoi 4 :</span> Top 1 = <strong>PvPGod</strong></li>
-            <li><span class="history-label">Tournoi 5 :</span> Top 1 = <strong>ClutchMaster</strong></li>
+            <li><span class="history-label">LCT2 :</span> Top 1 = <strong>Guitape</strong></li>
+            <li><span class="history-label">CT1 :</span> Top 1 = <strong>wx974</strong></li>
         </ul>
     </section>
 </main>
+<button id="toggle-header-btn" class="toggle-header-btn">
+    <span>Masquer le menu</span>
+</button>
 
 <footer class="site-footer">
     <p>© 2025 Serveur CodeBrain • Classement non définitif, sujet à mises à jour.</p>
 </footer>
-
-<button id="toggle-header-btn" class="toggle-header-btn">
-    <span>Masquer le menu</span>
-</button>
 </body>
 </html>
